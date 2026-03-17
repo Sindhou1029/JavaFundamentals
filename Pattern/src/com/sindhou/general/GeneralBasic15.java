@@ -1,0 +1,40 @@
+package com.sindhou.general;
+
+class Animal
+{
+	static int age;
+	
+	static void disp()
+	
+	{
+		System.out.println("Parent class display method");
+	}
+}
+
+class Deer extends Animal
+{
+//	public void show()
+//	{
+//		age=14;
+//		System.out.println(age);
+//	}
+	
+	static void disp()
+	
+	{
+		System.out.println("Deer class display method");
+	}
+	
+	//Method Hiding parent static method will be hidden and child class disp() method will be a specialized method. 
+}
+public class GeneralBasic15 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Animal ref = new Deer();
+		ref.disp();
+
+	}
+
+}

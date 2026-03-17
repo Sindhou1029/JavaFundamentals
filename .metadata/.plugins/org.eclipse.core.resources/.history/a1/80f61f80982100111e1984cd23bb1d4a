@@ -1,0 +1,24 @@
+package com.sindhou.general;
+
+interface Calculator
+{
+	void sub();
+	
+}
+interface Calc
+{
+	float pi=3.14f; // public final static float pi 
+	void add(int a, int b); // public abstract void add 
+	void mul(int a, int b); // public void mul
+}
+
+
+
+public class GeneralBasic18 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

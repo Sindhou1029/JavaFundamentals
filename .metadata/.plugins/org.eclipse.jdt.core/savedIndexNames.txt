@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+/Users/mks/Desktop/Sindhou/Java/Pattern Programing/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
+3021583871.index
+2387005402.index

@@ -1,0 +1,66 @@
+package com.sindhou.general;
+
+class TeluskoMain
+{
+	
+}
+
+class TeluskoAI extends TeluskoMain
+{
+	
+}
+
+class Animal1
+{
+	public void eat(int age)
+	{
+		System.out.println("Animal is eating");
+		
+		
+		}
+	
+	public int age()
+	{
+		return 8;
+	}
+	
+	public TeluskoMain animalLearn()
+	{
+		TeluskoMain t = new TeluskoMain();
+		
+		return t;
+	}
+}
+
+class Tiger extends Animal1
+{
+	public void eat ()
+	{
+		System.out.println("Deer is eating");
+	}
+	
+	public int age()
+	{
+		return 10;
+	}
+	public TeluskoAI animalLearn()
+	{
+		 TeluskoAI  t = new  TeluskoAI();
+		
+		return t;
+	}
+	
+}
+public class GeneralBasic16 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+Tiger a = new Tiger();
+a.eat();
+a.age();
+System.out.println(a.animalLearn()); 
+}
+
+}
